@@ -1,0 +1,30 @@
+div.top-container button {
+  background-color: white;
+  /* margin: 30px 0 10px 10px; */
+}
+div.middle-container button {
+  background-color: #76ba99;
+  color: white;
+  /* margin: 10px 0 10px 30px; */
+}
+div.bottom-container button {
+  background-color: #3ab0ff;
+  color: white;
+}
+div {
+  margin-left: 30px;
+}
+.top-container {
+  margin-bottom: 10px;
+  background-color: blueviolet;
+}
+.middle-container {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: blueviolet;
+}
+.bottom-container {
+  margin-top: 0px;
+  margin-left: 30px;
+  background-color: blueviolet;
+}
