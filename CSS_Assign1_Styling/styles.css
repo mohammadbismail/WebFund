@@ -4,7 +4,8 @@ body {
 h1 {
   background-color: black;
   color: #21e1e1;
-  padding-left: 20px;
+  padding: 0 0 5px 20px;
+  margin: 10px 0 10px 0;
   text-align: left;
   font-weight: bold;
   font-size: 3rem;
@@ -12,13 +13,17 @@ h1 {
 h2 {
   text-align: center;
   color: white;
+  margin: 10px 0 10px 0;
   background-color: purple;
+  padding: 5px 0 5px 0;
   font-style: italic;
 }
 h3 {
   text-decoration: underline;
   text-align: right;
   background-color: #3b9ae1;
+  margin: 10px 0 10px 0;
+  padding: 5px 0 5px 0;
   padding-right: 20px;
 }
 span {
