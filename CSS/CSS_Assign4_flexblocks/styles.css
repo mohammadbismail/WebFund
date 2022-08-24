@@ -36,9 +36,9 @@ div#advertisement {
 }
 .row {
   display: flex;
-  outline: 1px dotted black;
+  outline: 3px dotted black;
 }
 .main div.row {
-  outline: 1px dotted black;
+  outline: 3px dotted black;
   display: flex;
 }
