@@ -1,0 +1,60 @@
+.container {
+  border: 3px solid grey;
+  margin: 100px 20% 0 20%;
+  font-family: cursive;
+}
+.top {
+  background-color: skyblue;
+  height: 100px;
+}
+div.top img {
+  /* outline: 2px dotted red; */
+  height: 80px;
+  position: relative;
+  top: 60px;
+  left: 40px;
+}
+h1 {
+  /* outline: 2px dotted red; */
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+.sub1 {
+  /* outline: 2px dotted blue; */
+  display: flex;
+}
+.sub1 img {
+  height: 20px;
+  position: relative;
+  top: 25px;
+  left: 37px;
+}
+.sub1 h2 {
+  position: relative;
+  left: 45px;
+  top: 2px;
+}
+.sub2 {
+  padding-left: 40px;
+}
+.sub2 p {
+  font-weight: bold;
+  position: relative;
+  bottom: 15px;
+}
+.footer {
+  /* outline: 2px dotted red; */
+  display: flex;
+  position: relative;
+  left: 35px;
+  bottom: 10px;
+}
+.footer img {
+  /* outline: 2px dotted black; */
+  height: 20px;
+}
+.footer a {
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
