@@ -16,12 +16,13 @@ body {
   color: white;
   margin: 20px;
   height: 40%;
+  padding: 60px 0 0 40px;
 }
 .col {
   flex: 1;
 }
 .col-2 {
-  flex: 2;
+  flex: 2;S
 }
 .col-3 {
   flex: 3;
