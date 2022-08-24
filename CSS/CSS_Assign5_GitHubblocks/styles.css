@@ -1,0 +1,43 @@
+img.octocat {
+  height: 200px;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.container {
+  background-color: silver;
+  border-top: 3px solid black;
+  margin: 0 auto;
+}
+.top-container {
+  background-color: skyblue;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.middle-container {
+  background-color: #f29393;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.bottom-container {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer {
+  padding: 5px;
+}
