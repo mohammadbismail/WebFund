@@ -1,0 +1,179 @@
+/* font color #e6e8ea */
+/* background color #244e71 */
+/* another background color #555 */
+/* another background color #3776ab; */
+/* ul attribute try menu bar */
+/* ul attribute try aria-label */
+/* ul attribute diplay incline block and vertical align baseline */
+/* for removing dots from ul li, go for list-style-type */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/***************************************** navbar containers parameters */
+.main,
+nav {
+  width: 970px;
+  background-color: #244e71;
+}
+nav {
+  height: 200px;
+}
+.topleftnav,
+.toprightnav {
+  display: inline-block;
+  vertical-align: top;
+}
+.topleftnav {
+  padding: 20px 0 0 20px;
+}
+.toprightnav {
+  padding: 10px 0 0 280px;
+}
+.toprightnavup {
+  margin-left: 140px;
+}
+.toprightnavbtm {
+  padding: 15px;
+  background-color: #555;
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
+  margin: 5px 10px 0 120px;
+}
+.item44,
+.search44,
+.go {
+  display: inline-block;
+}
+.go {
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.ulnav {
+  background-color: #3776ab;
+  border-radius: 5px;
+  width: 800px;
+  box-shadow: 2px 2px black;
+  margin: 20px 40px 10px 100px;
+}
+.ulnav ul li {
+  display: inline-block;
+  margin: 10px 25px;
+  color: white;
+}
+.ulnav ul li.about {
+  margin-left: 70px;
+}
+/********************************************************* navbar images and text ***************/
+.topleftnav img {
+  height: 80px;
+}
+.go p {
+  color: white;
+  background-color: #244e71;
+  border-radius: 5px;
+  padding: 3px 6px;
+}
+.search44 p {
+  color: grey;
+  background-color: white;
+  padding: 7px 50px;
+  border: 1px solid black;
+}
+#item44 {
+  color: white;
+  font-size: 0.8rem;
+}
+#item45,
+#item46 {
+  color: yellow;
+  font-size: 0.8rem;
+}
+/********************************************* main containers and parameters  */
+aside {
+  width: 30%;
+}
+.maintopright {
+  width: 70%;
+}
+.maintopright,
+.maintopleft {
+  display: inline-block;
+  vertical-align: top;
+}
+.maintopleft {
+  margin: 0 0 0 80px;
+  text-align: center;
+}
+.maintopleft ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.maintopright {
+  margin-left: 60px;
+}
+/********************************************** main container images and text */
+.maintopleft ul li a {
+  color: white;
+  font-size: 0.9rem;
+}
+.article1 p {
+  color: white;
+  font-size: 0.85rem;
+  text-align: center;
+}
+section h2 {
+  color: yellow;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+section h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mainbtm {
+  background-color: white;
+}
+.secleft,
+.secright {
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  border-top: 4px solid #3776ab;
+  padding: 0 10px;
+  text-align: center;
+  margin: 5px 25px;
+}
+.secleft ul li a,
+.secright ul li a {
+  text-decoration: none;
+  color: #3776ab;
+}
+.secright p a {
+  text-decoration: none;
+  color: #3776ab;
+}
+/******************************************************* footer */
+footer {
+  background-image: linear-gradient(to bottom, #244e71, #3776ab);
+  width: 970px;
+}
+.foottop ul li {
+  display: inline-block;
+  padding: 45px 20px 20px 20px;
+  color: white;
+  font-size: 1rem;
+}
+.foottop {
+  padding: 0 0 0 170px;
+}
+.footbtm h4 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  color: white;
+}
