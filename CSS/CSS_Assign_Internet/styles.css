@@ -1,0 +1,115 @@
+/* background colors #244e71 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  outline: 1.5px dotted red;
+}
+
+body {
+  display: grid;
+  grid-template: 0.5fr 0.3fr repeat(3, 1fr) / repeat(5, 1fr);
+  margin: 0 5%;
+  height: 600px;
+}
+nav {
+  grid-area: 1/1 / 1 / span 5;
+}
+.sidenav {
+  grid-area: 2/2 / span 1 / span 4;
+  display: flex;
+}
+.sidebox1 {
+  flex: 1;
+}
+.sidebox2 {
+  flex: 7;
+}
+.asidediv {
+  display: flex;
+  flex-direction: column;
+  grid-area: 2/1 / span 4 / span 1;
+}
+.asid1 {
+  border-bottom: 1px solid black;
+  flex: 1;
+}
+.asid2 {
+  background-image: url("img/hit.gif");
+  background-size: cover;
+  flex: 2;
+}
+.art1 {
+  grid-area: 2/2 / span 1 / span 1;
+}
+.art2 {
+  grid-area: 3/2 / span 1 / span 4;
+}
+.art3 {
+  grid-area: 4/2 / span 1 / span 4;
+}
+.art4 {
+  grid-area: 5/2 / span 1 / span 4;
+  display: flex;
+  border-top: 4px solid blue;
+  border-left: 4px solid blue;
+  border-right: 4px solid blue;
+}
+nav h1 {
+  display: inline;
+  font-size: 2rem;
+}
+nav h2 {
+  color: white;
+  background-image: linear-gradient(#244e71, #3776ab, #244e71);
+  padding: 10px 0 10px 15px;
+}
+/***************************************************** pictures, items, text styling,buttons */
+nav img {
+  height: 70px;
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
+.sp1 {
+  color: #244e71;
+}
+.sp2 {
+  color: red;
+}
+.art1 img {
+  height: 20px;
+}
+.art2 img,
+.art4 img {
+  height: 120px;
+}
+.art1 p {
+  display: inline;
+}
+.btn1,
+.btn2 {
+  display: block;
+}
+.btn1 {
+  background-color: #244e71;
+  color: white;
+}
+.btn2 {
+  background-color: #e38b29;
+  color: white;
+}
+.btn3 {
+  display: block;
+  background-color: skyblue;
+}
+/* #backgnd {
+  height: auto;
+  width: auto;
+} */
+#ninja {
+  height: 50px;
+}
+.sidenav img {
+  height: 40px;
+}
