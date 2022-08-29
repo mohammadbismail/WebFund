@@ -3,6 +3,9 @@ function logOut(btn) {
   btn.value = "Logout";
   btn.innerText = "Logout";
 }
+// function logOut(elemnent) {
+//   elemnent.innerText = "Logout";
+// }
 function hide(element) {
   element.remove();
 }
