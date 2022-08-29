@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  /* outline: 1px dashed red; */
+}
+body {
+  display: grid;
+  grid-template: 10% repeat(2, 1fr) / repeat(4, 1fr);
+  margin: 0 10%;
+  min-height: 600px;
+}
+nav {
+  grid-area: 1/1 / span 1 / span 4;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav h1 {
+  font-size: 2rem;
+  margin-left: 50px;
+}
+.navbox1 input {
+  padding: 3px 100px 3px 0;
+  margin-top: 10px;
+}
+.navbox2 input {
+  color: white;
+  background-color: blue;
+  padding: 5px 20px;
+  margin-right: 50px;
+  box-shadow: 4px 4px black;
+}
+.article1,
+.article2 {
+  padding-left: 60px;
+  display: flex;
+  border: 3px solid black;
+}
+.article1 {
+  grid-area: 2/1 / span 1 / span 3;
+  margin: 30px 20px 30px 0;
+}
+.subart1 {
+  /* outline: 1px dashed blue; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.subart1 input {
+  background-color: orange;
+  width: 80px;
+  padding: 5px 0;
+  box-shadow: 3px 3px black;
+}
+.subart2 {
+  flex: 2;
+  padding: 10%;
+}
+.article2 {
+  grid-area: 3/1 / span 1 / span 3;
+  margin: 0 20px 30px 0;
+}
+aside {
+  grid-area: 2/4 / span 1 / span 1;
+  border: 3px solid black;
+  margin-top: 30px;
+  padding: 5% 20%;
+  display: flex;
+  align-items: center;
+}
+aside h2 input {
+  box-shadow: 3px 3px black;
+  background-color: green;
+  padding: 2px 20px;
+}
